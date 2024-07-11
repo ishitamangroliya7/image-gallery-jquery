@@ -1,0 +1,52 @@
+@media (max-width:768px) {
+    .modal-image {
+        height: 350px;
+    }
+
+    .autoplay-btn,
+    .close {
+        font-size: 16px;
+    }
+
+    .prev,
+    .next {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .image-counter {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:568px) {
+    .modal-image {
+        height: 300px;
+    }
+
+    .autoplay-btn,
+    .close {
+        font-size: 14px;
+    }
+
+    .image-counter {
+        font-size: 14px;
+    }
+
+    .prev,
+    .next {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:425px) {
+    .modal-image {
+        height: 250px;
+    }
+}
+
+@media (max-width:325px) {
+    .modal-image {
+        height: 200px;
+    }
+}
